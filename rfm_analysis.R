@@ -7,11 +7,11 @@ library(ggplot2)
 # Connect to the PostgreSQL database
 con <- dbConnect(
   RPostgres::Postgres(),
-  dbname = "postgres", # Database name
+  dbname = "rfm_project", # Database name
   host = "localhost",
-  port = 5432,
-  user = "postgres",
-  password = "Lucapacioli543."
+  port = ***********,
+  user = "*********",
+  password = "*****"
 )
 
 # Load the data from the table online_sales_project
